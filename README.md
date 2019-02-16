@@ -5,14 +5,16 @@ MV1ファイルに含まれるShapeの適用値を確認するツール
 ![Image](https://elftune.github.io/app/showmv1shape/image.png)
 
 ## Requirements
+- Microsoft Visual Studio 2017 Community
 - .NET Framework 4.5.2
 - DirectX 9Ex or 11
 - 3ボタン以上のマウス
 - 任意のMV1ファイル
 
 ## Usage
+- ShowMV1Shape.sln をVisual Studioでビルドする (ホイールを回したときにどちらに回転するかなどを自分好みに変更すると良さげ)
 - MV1ファイルをドラッグ＆ドロップする (PMX/PMD + VMDも可能だがロードが遅い)
-- リストボックスからアニメーションを選択する
+- リストボックスから表示するアニメーションを選択する
 - スクロールバーで目的のフレームに移動する
 - マウスのLボタンのドラッグ（水平回転）
 - マウスのRボタンのドラッグ（垂直回転）
